@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color:black;
+    color:white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+display: flex;
+margin: 0 23px;
+align-items: center;
+}
+ul li{
+list-style: none;
+color:aliceblue;
+font-family: 'Poppins', sans-serif;
+margin:0 13px;
+cursor: pointer;
+}
+ul li:hover{
+color:rgb(4, 250, 250);
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+border: 2px solid black;
+}
+.container{
+max-width: 80vw;
+margin:23px auto;
+}
+p{
+color: rgb(235, 47, 5);
+font-size:20px;
+font-family: 'Poppins';
+}
+body{
+background-image: url(bg4.jpg);
+background-repeat: no-repeat; 
+
+ background-position: center;
+background-size: cover; 
+ border-color: 2px solid black; 
+ background-attachment: fixed;
+}
+h1,h2,h3{
+    margin: 23px 0;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 23px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/* .btn1{
+  border-radius: 100px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #db140d;
+}*/
+
+.btn1:hover{
+  background-color: #db140d;
+  color: white;
+} 
+.button1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 23px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f12d05;
+}
+.btn {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1042e7;
+}
+.button1:hover{
+  
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f12d05;
+}
+
+.btn:hover {
+  background-color: #1042e7;
+  color: white;
+}
+.logo{
+    color:white;
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor:grab;
+}
+table, td, th {  
+    border: 2px solid #0e0d0d;
+    text-align: left;
+  }
+  
+
+  
+  th, td {
+    padding: 5px;
+  }
+  img{
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  #alert{
+    display: none;
+  }
+input{
+
+  margin: 25px;
+  padding: 2px;
+  border-radius: 5px;
+}
+#website{
+margin: 33px;
+}
+#username{
+  margin: 16px;
+}
